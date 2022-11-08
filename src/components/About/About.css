@@ -1,0 +1,52 @@
+#about h5,
+#about h2 {
+    text-align: center;
+}
+
+#about h2 {
+    color: var(--color-primary)
+}
+
+.about__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    height: 100vh;
+}
+
+.about__me-image1 {
+    width: 100px;
+    transform: rotate(10deg);
+    background-color: blue;
+ 
+    border-radius: 1rem;
+    transition: var(--transition)
+}
+
+.about__me-image1:hover {
+    transform: rotate(0deg);
+}
+ 
+
+.about__cards {
+    display: grid;
+    grid: 1fr 1fr / 200px 200px;
+    gap: 2rem;
+}
+
+.about__card {
+    background-color:  rgb(25, 25, 82);
+    border: 1px solid transparent;
+    text-align:  center;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    
+}
+
+.about__card:hover {
+    border-color: var(--color-bg)
+}
+
+.about__icon {
+    color: var(--color-primary)
+}

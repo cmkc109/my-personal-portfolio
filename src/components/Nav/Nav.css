@@ -1,0 +1,40 @@
+nav {
+    width: max-content;
+    display: block;
+    padding: 0.5rem;
+    background: rgba(8, 3, 35,0.7);
+    border-radius: 2rem;
+    z-index: 5;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 10rem;
+    left: 0.5rem;
+    gap: 0.5rem;
+ 
+}
+
+@media screen and (max-width: 800px) {
+    nav {
+        flex-direction: row;
+        top: 83%;
+        left: 50%;
+        bottom: 5rem;
+        transform: translateX(-50%);  
+    }
+}
+
+nav a {
+    padding: 0.1rem 0.5rem ;
+    border-radius: 50%;
+    color: var(--color-light);
+     
+}
+
+nav a:hover,
+nav a:active,
+nav a.active {
+    background: rgb(155, 125, 240);
+}
+
+ 
