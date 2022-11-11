@@ -3,6 +3,7 @@ import './Portfolio.css'
 import shoppingImg from '../../assets/shopping-site-firebase.PNG';
 import pokedexImg from '../../assets/pokedex.png';
 import simongameImg from '../../assets/simongame.PNG'
+import blogImg from '../../assets/mypostblog.PNG'
 
 const Portfolio = () => {
   return (
@@ -43,7 +44,19 @@ const Portfolio = () => {
 
               <div className="portfolio__buttons"> 
               <a href="https://github.com/cmkc109/shopping-website-firebase" className="btn">Github</a>
-              <a href="http://github.com" className="btn btn-primary" target="_blank">Live Demo</a>
+              <a href="http://github.com" className="btn btn-primary" disabled target="_blank">Live Demo Not available</a>
+              </div>
+          </article>
+
+          <article className="portfolio__item">
+              <div className="portfolio__item-image">
+                <img src={blogImg} alt="blog app"/>
+              </div>
+              <h3>Personal blog using MERN stack</h3>
+
+              <div className="portfolio__buttons"> 
+              <a href="https://github.com/cmkc109/myblog-2022" className="btn">Github</a>
+              <a href="http://github.com" className="btn btn-primary" disabled target="_blank">Live Demo Not available</a>
               </div>
           </article>
         </div>
