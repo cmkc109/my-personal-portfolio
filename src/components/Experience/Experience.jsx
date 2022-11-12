@@ -27,6 +27,10 @@ const Experience = () => {
              </div>
              <div className="experience__details">
                 <div className="experience__icon"><AiOutlineCheckCircle /></div> 
+                <h4>Typescript</h4>
+             </div>
+             <div className="experience__details">
+                <div className="experience__icon"><AiOutlineCheckCircle /></div> 
                 <h4>React</h4>
              </div>
              <div className="experience__details">
