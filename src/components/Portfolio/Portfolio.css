@@ -48,6 +48,12 @@
     gap: 2em;
 }
 
+.portfolio__button__notavailable {
+    background-color: grey;
+    color: black;
+    border: grey;
+}
+
 @media screen and (max-width: 1000px) {
     .portfolio__container {
         grid-template-columns: 1fr 1fr;
